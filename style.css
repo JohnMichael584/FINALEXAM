@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+.navbar {
+   background-color: white; 
+}
+.nav-link{
+    color: black;
+    font-size: 1px;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: white;
+    background-color: black;
+}
+.navbar-brand {
+    font-size: 1.25rem;
+    font-weight: 800;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+
+
+.main { 
+     background: url(./liza.jpg) no-repeat;
+     background-size: cover;
+     width: 100%;
+     height: 100 vh;
+
+}
+.main h3 {
+    font-size: 4.4rem;
+    font-weight: 700; 
+}
+.main h6 {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    line-height: 1 ;
+    border-bottom: 3px solid rgb(233, 20,109);
+    width: 55%;
+}
+.main .btn1:hover{
+    background-color: white;
+    transition: 0.5s;
+}
+.main .btn1 {
+    height: 55px;
+    width: 138px;
+    background-color:rgb(233, 20,109);
+    color:pink;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+   
+}    
+}
+h1{
+    font-size: 3rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 1 ;
+    border-bottom: 3px solid rgb(233, 20,109);
+    width: 55%;
+    
+}
+}
+
+.card {
+    border: none;
+    outline: none;
+    
+}
+
+.card p{
+    color: grey;
+}
+
+.circle  {
+    height: 70px;
+    width: 70px ;
+    background-color: lightgrey;
+    color: black;
+    padding: 12px;
+    font-size: 30px;
+    border-radius: 50% ;
+    display: inline-block;
+    margin-buttom: 20px;
+}
+
+card:hover .circle{
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
